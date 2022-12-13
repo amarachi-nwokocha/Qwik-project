@@ -4,15 +4,19 @@ import Feature from './Feature'
 import  Content  from './Hero'
 import MidBox from './MidBox'
 import Navbar from './Navbar'
+import PlanSec from './PlanSec'
+import ScrollSec from './ScrollSec'
 
 const Dashboard = () => {
   return (
-    <div className='m-5'>
+    <div className='m-10'>
         <Navbar />
         <Content />
         <MidBox />
         <Feature />
         <Carousel />
+        <ScrollSec />
+        <PlanSec />
     </div>
   )
 }

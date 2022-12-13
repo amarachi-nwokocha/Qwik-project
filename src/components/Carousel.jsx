@@ -20,7 +20,7 @@ const Carousel = () => {
             <h2 className="text-blue text-4xl font-semibold">
             Perfect solution for your business
             </h2>
-            <p className='w-80 mt-5'>With the Black-Offic feture you ara able to better keep track of your inventory,
+            <p className='w-80 mt-5'>With the Black-Offic feture you are able to better keep track of your inventory,
                 avois stockouts, increase prouctivity and profit.
             </p>
             <button className='px-7 py-2 my-4 text-white border bg-gradient-to-r from-blue-960 to-blue-600 rounded-full'>Get Started</button>
@@ -35,13 +35,13 @@ const Carousel = () => {
           </div>
           <div className="mt-20">
           <h2 className="text-blue text-4xl font-semibold">
-           Looking for an easy way to locte stores?
+           Looking for an easy way to locate stores?
             </h2>
             <p className='w-80 mt-5 text-bold'>
                 QwikCountr has made shooping easy with Geo-Shopping.<br/>
                 Easily locate stores near you and get on the Qwik experience!
             </p>
-            <button className='px-7 py-2 my-4 text-white border bg-gradient-to-r from-blue-960 to-blue-600 rounded-full'>Try it out</button>
+            <button className='bg-gradient-to-r from-blue-960 to-blue-600 rounded-full px-7 py-2 my-4 text-white border '>Try it out</button>
          
           </div>
       </div>
