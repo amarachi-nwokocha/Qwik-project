@@ -9,7 +9,7 @@ import ScrollSec from './ScrollSec'
 
 const Dashboard = () => {
   return (
-    <div className='m-10'>
+    <div className='m-10 bg-white-600'>
         <Navbar />
         <Content />
         <MidBox />
