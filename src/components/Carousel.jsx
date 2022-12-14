@@ -10,7 +10,7 @@ import spirall from "../assets/spiralline.png";
 const Carousel = () => {
   return (
     <div>
-      <div className="flex justify-around bg-cover" style={{backgroundImage: `url(${spiral, spirall})`}}>
+      <div className="flex justify-around bg-cover" style={{backgroundImage: `url(${spiral})`}}>
         <div className="mt-20">
           <h2 className="text-blue text-4xl font-medium">Easy to set up</h2>
           <p>On board the application and get started very fast</p>
