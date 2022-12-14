@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import badge from '../assets/qwikcountr.png'
-import { HiMenu, HiX } from 'react-icons/hi'
+
 
 
 const Navbar = () => {

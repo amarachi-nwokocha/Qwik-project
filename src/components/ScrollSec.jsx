@@ -5,7 +5,7 @@ const ScrollSec = () => {
     <div >
       <div className="grid place-content-center">
         <h1 className="text-3xl text-center text-blue ">Our Clients Say</h1>
-        <p>
+        <p className="p-2">
           Amongst topbusiness owners and shoppers here are some reviews about
           our application
         </p>
