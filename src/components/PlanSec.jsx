@@ -1,56 +1,31 @@
-import React from 'react'
+import React from "react";
 
 const PlanSec = () => {
   return (
-    <div className="mt-30 flex content-between">
+    <div className="mt-20 grid grid-cols-3 row-gap-2">
+      <div className="card w-[350px] h-[200px] bg-base-100 shadow-xl">
+        <div className="card-body">
+          <h2 className="card-title">Card title!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn">Get Started</button>
+        </div>
+      </div>
+      <div className="card w-[350px] bg-blue-600 h-[400px]bg-base-100 shadow-xl">
+        <div className="card-body">
+          <h2 className="card-title">Card title!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn">Get Started</button>
+        </div>
+      </div>
+      <div className="card w-[350px] h-[200px] bg-base-100 shadow-xl">
+        <div className="card-body">
+          <h2 className="card-title">Card title!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn">Get Started</button>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-    <div>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-  </div>
-</div>
-    </div>
-    <div>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-  </div>
-</div>
-    </div>
-    <div>
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-  </div>
-</div>
-    </div>
-    </div>
-  )
-}
-
-export default PlanSec
+export default PlanSec;
