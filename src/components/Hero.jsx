@@ -3,10 +3,10 @@ import React from 'react'
 import qwikFlows from '../assets/qwikphone-flow.png';
 import elipse from '../assets/elipse.png'
 
-export const Content = () => {
+export const Hero = () => {
   return (
-    <div className='w-full h-screen bg-white flex flex-col justify-between sm:w-full'>
-        <div className='grid md:grid-cols-2 max-w-[1700px] m-auto'>
+    <div className='w-full bg-white flex flex-col justify-between'>
+        <div className='grid md:grid-cols-2 max-w-[2000px] m-auto'>
           <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
             <h1 className='font-medium p-3 mr-2 md:text-4xl sm:text-4xl text-blue'>
                 #1 Business & Inventory<br/> Management Solution
@@ -20,11 +20,12 @@ export const Content = () => {
                   <button className='px-7 py-2 my-4 text-gray text-sm border rounded-full hover:bg-light-blue hover:text-white'>Watch Video</button>       
                 </div>         
           </div>
-          <div className='bg-cover' style={{backgroundImage: `url(${elipse})`}}>
-            <img className='lg:p-12' src={qwikFlows} alt="qwikflows" />
+          {/* <div> */}
+          <div className='bg-cover bg-center' style={{backgroundImage: `url(${elipse})`}}>
+            <img className='lg:p-20 w-50' src={qwikFlows} alt="qwikflows" />
           </div>
     </div>
     </div>
   )
 }
-export default Content
+export default Hero

@@ -3,8 +3,8 @@ import smallPic from "../assets/Frame 35224.png";
 const ScrollSec = () => {
   return (
     <div >
-      <div className="grid place-content-center">
-        <h1 className="text-3xl text-center text-blue ">Our Clients Say</h1>
+      <div className="grid place-content-center text-center">
+        <h1 className="font-medium text-4xl text-blue pt-10">Our Clients Say</h1>
         <p className="p-2">
           Amongst topbusiness owners and shoppers here are some reviews about
           our application
