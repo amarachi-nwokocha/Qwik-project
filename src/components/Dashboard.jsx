@@ -1,6 +1,9 @@
 import React from 'react'
 import Carousel from './Carousel'
+import Download from './Download'
+import Experience from './Experience'
 import Feature from './Feature'
+import Form from './Form'
 import  Content  from './Hero'
 import MidBox from './MidBox'
 import Navbar from './Navbar'
@@ -17,6 +20,9 @@ const Dashboard = () => {
         <Carousel />
         <ScrollSec />
         <PlanSec />
+        <Experience />
+        <Form />
+        <Download />
     </div>
   )
 }

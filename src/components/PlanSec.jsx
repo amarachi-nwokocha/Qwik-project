@@ -41,11 +41,11 @@ const PlanSec = () => {
           </div>
         </div>
         {/* card2 */}
-        <div className="card w-[300px] text-center bg-base-100 shadow-xl">
-          <div className="card-body">
+        <div className="card w-[300px] text-center bg-blue  shadow-xl">
+          <div className="card-body ">
             <h2 className="font-bold text-2xl text-green-400">Essentials</h2>
             <br />
-            <p>it has some text i cannot see</p> <br />
+            <p className="text-white">it has some text i cannot see</p> <br />
             <span className="flex content-center"> <h1 className="font-bold text-2xl">₦1,500 / </h1> <p>month</p></span>
            <div className="mt-10 grid place-content-center">
               <div className="flex justify-items-center">
@@ -110,6 +110,16 @@ const PlanSec = () => {
                 {" "}
                 <FaCheck style={iconStyle} />{" "}
                 <p className="ml-8 flex self-start">Generate PDF reports</p>
+              </div>
+              <div className="flex justify-items-center">
+                {" "}
+                <FaCheck style={iconStyle} />{" "}
+                <p className="ml-8 flex self-start">Get email reports</p>
+              </div>
+              <div className="flex justify-items-center">
+                {" "}
+                <FaCheck style={iconStyle} />{" "}
+                <p className="ml-8 flex self-start">Live chat support</p>
               </div>
             </div>
             <button className="px-3 py-2 my-4 text-white border bg-gradient-to-r from-blue-960 to-blue-600 rounded-full">
