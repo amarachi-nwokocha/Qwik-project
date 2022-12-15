@@ -4,17 +4,18 @@ import Phone from "../assets/iPhone 11 Pro Mockup.png";
 import laptop from "../assets/Frame 35263.png";
 import wine from "../assets/Frame 35267 (5).png";
 import box from "../assets/Frame 35267 (2).png";
+import spiral from "../assets/spiral.png";
+import spirall from "../assets/spiralline.png";
+import iphone from "../assets/iPhone 11 Pro Mockup (1).png";
+
 const Carousel = () => {
   return (
     <div>
-      <div className="flex justify-around">
+      <div className="flex justify-around bg-cover" style={{backgroundImage: `url(${spiral})`}}>
         <div className="mt-20">
-          <h2 className="text-blue text-4xl font-semibold">Easy to set up</h2>
-          <p>On board the application and get started very fast</p>
+          <h2 className="text-blue text-4xl font-medium ">Easy to set up</h2>
+          <p className="pt-3">On board the application and get started very fast</p>
         </div>
-        {/* <div>
-            <img src={setUp} className='object-cover h-80 w-70' alt="setting up workspace" />
-          </div> */}
         <div className="flex flex-col">
           <div className="w-[450px] h-64  carousel ">
             <div id="item1" className="carousel-item  w-full">
@@ -64,43 +65,53 @@ const Carousel = () => {
       </div>
       <div className="flex justify-around mt-20">
         <div className="mt-20">
-          <h2 className="text-blue text-4xl font-semibold">
+          <h2 className="text-blue text-4xl font-medium">
             Perfect solution for your business
           </h2>
-          <p className="w-80 mt-5">
-            With the Black-Offic feture you are able to better keep track of
-            your inventory, avois stockouts, increase prouctivity and profit.
+          <p className="mt-5 justify-between">
+            With the Back-Office feture you are able to have better <br/> keep track of
+            your inventory, avoid stockouts, and increase <br/>
+             productivity and profit.
           </p>
-          <button className="px-7 py-2 my-4 text-white border bg-gradient-to-r from-blue-960 to-blue-600 rounded-full">
+          <button className="px-7 py-2 my-4 text-white border bg-blue rounded-full">
             Get Started
           </button>
         </div>
         <div>
-          <img
-            src={Phone}
-            className="object-cover h-80 w-90"
-            alt="setting up workspace"
+          <img src={Phone} className="object-cover h-80 w-90" alt="setting up workspace"
           />
+          {/* <div className="border rounded-l-lg bg-sky-blue flex">
+            <ul className="flex py-1 text-gray">
+              <li>Sales</li>
+              <li className="p-3 bg-blue border-none rounded-full text-white">Products</li>
+              <li>Customer</li>
+            </ul>
+          </div> */}
+
+          <div className="grid grid-cols-3 divide-x rounded-full bg-sky-blue text-gray p-3">
+            <div>Sales</div>
+            <div className="bg-blue text-white">Products</div>
+            <div>Customer</div>
+          </div>
         </div>
       </div>
       <div className="flex justify-around mt-20">
         <div>
           <img
-            src={Phone}
+            src={iphone}
             className="object-cover h-80 w-90"
             alt="setting up workspace"
           />
         </div>
         <div className="mt-20">
-          <h2 className="text-blue text-4xl font-semibold">
-            Looking for an easy way to locate stores?
+          <h2 className="text-blue text-4xl font-medium">
+            Looking for an easy way<br/> to locate stores?
           </h2>
-          <p className="w-80 mt-5 text-bold">
-            QwikCountr has made shooping easy with Geo-Shopping.
-            <br />
-            Easily locate stores near you and get on the Qwik experience!
+          <p className="mt-5 text-bold">
+            QwikCountr has made shooping easy with Geo-Shopping<br/>
+            Easily locate stores near you and get on the Qwik<br/> experience!
           </p>
-          <button className="bg-gradient-to-r from-blue-960 to-blue-600 rounded-full px-7 py-2 my-4 text-white border ">
+          <button className="bg-blue rounded-full px-7 py-2 my-4 text-white border float-left">
             Try it out
           </button>
         </div>

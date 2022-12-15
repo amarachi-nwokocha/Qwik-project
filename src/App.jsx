@@ -1,8 +1,9 @@
 
+import React from 'react';
 import Dashboard from './components/Dashboard';
 import './index.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Dashboard />
