@@ -10,9 +10,9 @@ const Download = () => {
         <img className='h-[300px]' src={Image2} alt="" />
         <img className='h-[250px] mt-10' src={Image3} alt="" />
         </div>
-        <div className=' m-40 w-[400px]'>
-            <h2 className="text-blue text-semibold text-3xl">Customer-Centric, Start buying& selling in minutes</h2>
-            <p>Simply download the QwikCountr application and use on any device</p>
+        <div className=' m-40 ml-80 w-[400px]'>
+            <h2 className="text-blue text-right text-semibold text-3xl">Customer-Centric, Start buying& selling in minutes</h2>
+            <p className='text-right'>Simply download the QwikCountr application and use on any device</p>
         </div>
     </div>
   )

@@ -3,6 +3,7 @@ import Carousel from './Carousel'
 import Download from './Download'
 import Experience from './Experience'
 import Feature from './Feature'
+import Footer from './Footer'
 import Form from './Form'
 import  Content  from './Hero'
 import MidBox from './MidBox'
@@ -12,7 +13,7 @@ import ScrollSec from './ScrollSec'
 
 const Dashboard = () => {
   return (
-    <div className='ml-10 mr-10  '>
+    <div className=' '>
         <Navbar />
         <Content />
         <MidBox />
@@ -23,6 +24,7 @@ const Dashboard = () => {
         <Experience />
         <Form />
         <Download />
+        <Footer />
     </div>
   )
 }
